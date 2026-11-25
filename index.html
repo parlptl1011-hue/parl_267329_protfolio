@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pearl Patel's student portfolio - Information Technology">
+  <title>Parl Patel | IT Student Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">Parl<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <div class="theme-picker" aria-label="Choose portfolio colour theme">
+          <button class="palette-dot rose active" data-theme="rose" aria-label="Rose theme" title="Rose theme"></button>
+          <button class="palette-dot lilac" data-theme="lilac" aria-label="Lilac theme" title="Lilac theme"></button>
+          <button class="palette-dot sage" data-theme="sage" aria-label="Sage theme" title="Sage theme"></button>
+        </div>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode">☾</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow hero-pill"><span class="status-dot"></span> HELLO, WELCOME TO MY PORTFOLIO</p>
+          <h1>Hi, I'm <span>Parl Patel</span></h1>
+          <h2>Information Technology Student</h2>
+          <p class="hero-text">A curious learner interested in technology, creative ideas, and building useful digital experiences.</p>
+          <div class="hero-actions">
+            <a class="btn primary-btn" href="#projects">Explore my work <span>↗</span></a>
+            <a class="btn secondary-btn" href="#contact">Contact me</a>
+          </div>
+          <div class="hero-meta"><span>✦ Curious learner</span><span>✦ Creative thinker</span><span>✦ IT student</span></div>
+        </div>
+        <div class="hero-art" aria-label="Decorative initials PP">
+          <div class="art-circle circle-one"></div>
+          <div class="art-circle circle-two"></div>
+          <div class="initial-card"><span>PP</span><small>IT • LEARN • CREATE</small></div>
+          <span class="art-spark spark-one">✦</span>
+          <span class="art-spark spark-two">✧</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container narrow">
+        <p class="eyebrow">A LITTLE INTRODUCTION</p>
+        <h2 class="section-title">About <span>Me</span></h2>
+        <p class="section-lead">I am an enthusiastic Information Technology student currently pursuing the second year of B.Tech in IT, after completing a Diploma in Information Technology. I have also completed a one-month internship, where I gained exposure to a professional work environment. I enjoy learning new things, exploring ideas, collaborating with others, and developing my technical and professional skills.</p>
+        <div class="about-facts">
+          <div class="fact"><strong>2nd Year</strong><span>B.Tech in IT</span></div>
+          <div class="fact"><strong>Completed</strong><span>Diploma in IT</span></div>
+          <div class="fact"><strong>1 Month</strong><span>Internship experience</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft-section" id="skills">
+      <div class="container">
+        <p class="eyebrow">WHAT I BRING</p>
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <div class="skill-grid">
+          <article class="skill-card"><div class="skill-icon">01</div><h3>Technical</h3><p>Basic Python · MS Word · PowerPoint · Basic computer knowledge</p></article>
+          <article class="skill-card"><div class="skill-icon">02</div><h3>Personal</h3><p>Problem-solving · Time management · Creativity · Adaptability</p></article>
+          <article class="skill-card"><div class="skill-icon">03</div><h3>Professional</h3><p>Communication · Teamwork · Presentation · Quick learning</p></article>
+        </div>
+        <p class="small-note">Only keep the skills you can confidently discuss or demonstrate.</p>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <p class="eyebrow">SOME THINGS I'VE WORKED ON</p>
+        <h2 class="section-title">Featured <span>Projects</span></h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-visual bus-visual"><span>BUS</span><span class="route-line"></span><span class="visual-caption">LOCAL TRAVEL • INFORMATION</span></div>
+            <div class="project-content">
+              <p class="project-type">DESIGN THINKING CONCEPT</p>
+              <h3>BUSPULSE</h3>
+              <p>A mobile-based local bus information concept designed to help passengers check nearby stops, routes, walking distance, and estimated arrival information.</p>
+              <div class="tags"><span>Research</span><span>UI Concept</span><span>Problem Solving</span></div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual game-visual"><span class="game-symbol">?</span><span class="visual-caption">PYTHON • MINI GAME</span></div>
+            <div class="project-content">
+              <p class="project-type">PYTHON MINI PROJECT</p>
+              <h3>Number Guessing Game</h3>
+              <p>A beginner-friendly interactive text game where a player follows clues, makes choices, and receives responses using basic programming concepts.</p>
+              <div class="tags"><span>Python</span><span>Conditionals</span><span>Loops</span></div>
+            </div>
+          </article>
+        </div>
+        <p class="small-note">These are starter project descriptions based on your previous project work. Edit them to match what you actually completed.</p>
+      </div>
+    </section>
+
+    <section class="section soft-section" id="education">
+      <div class="container narrow">
+        <p class="eyebrow">MY LEARNING JOURNEY</p>
+        <h2 class="section-title">Education & <span>Experience</span></h2>
+        <div class="timeline">
+          <article class="timeline-item"><span class="timeline-dot"></span><p class="timeline-date">2026 – Present</p><h3>Bachelor of Technology (B.Tech) – Information Technology</h3><p>JG University · Currently pursuing, 2nd Year</p></article>
+          <article class="timeline-item"><span class="timeline-dot"></span><p class="timeline-date">2023 – 2026</p><h3>Diploma in Information Technology</h3><p>LJ University · Completed</p></article>
+          <article class="timeline-item"><span class="timeline-dot"></span><p class="timeline-date">1 Month · Add dates</p><h3>Internship Trainee</h3><p>[Company name] · [Internship field]</p><p class="small-note">Add 2–3 real tasks or tools you worked with during your internship.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="languages">
+      <div class="container narrow">
+        <p class="eyebrow">COMMUNICATION</p>
+        <h2 class="section-title">Languages</h2>
+        <div class="language-list"><span>Gujarati</span><span>English</span><span>Hindi</span></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h2 class="section-title">Get in <span>Touch</span></h2>
+          <p class="section-lead">Have an opportunity, project idea, or just want to connect? Send me a message.</p>
+          <p class="contact-detail"><strong>Email:</strong> <a href="mailto:parlptl1011@gamil.com">parlptl1011@gamil.com</a></p>
+          <p class="contact-detail"><strong>Location:</strong> Ahmedabad, Gujarat</p>
+          <p class="small-note">Replace the sample email with your preferred public contact email.</p>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" placeholder="Enter your name" required>
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email" placeholder="Enter your email" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea>
+          <button class="btn primary-btn" type="submit">Check message</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="logo" href="#home">Parl<span>.</span></a><p>Designed and built with care · © <span id="year"></span> Parl Patel</p><a href="#home">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>
